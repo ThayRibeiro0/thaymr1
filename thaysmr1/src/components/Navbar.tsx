@@ -16,7 +16,10 @@ const Navbar = () => {
               <NavLink 
                 to={path} 
                 className={({isActive}) => 
-                  isActive ? 'nav__link active-nav' : 'nav__link'}>
+                  isActive ? 'nav__link active-nav' : 'nav__link'
+                  }
+                  onClick={() => setShowMenu(!showMenu)}
+                >
                   
                   {icon}
                 
@@ -28,7 +31,9 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className="nav__toggle" onClick={() => setShowMenu(!showMenu)}>
+      <div 
+        className={`${showMenu ? 'nav__toggle animate-toggle' : 'nav__toggle'}`} 
+        onClick={() => setShowMenu(!showMenu)}>
         <span></span>
         <span></span>
         <span></span>
