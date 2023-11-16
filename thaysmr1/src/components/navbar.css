@@ -10,7 +10,7 @@
     min-width: 230px;
     margin-left: 40%;
     background: linear-gradient(to right, rgb(30, 11, 12), rgb(163, 158, 158));
-    display: flex;
+    display: table-cell;
     border-radius: 0.5rem;
     top: 5rem;
     z-index: 1;
@@ -19,7 +19,6 @@
     transition: all 0.9s cubic-bezier(0.77, 0.2, 0.05, 1);
     
 }
-
 
 .show-menu{
     left: 0;
@@ -71,7 +70,6 @@
     background-color: black;
     margin-bottom: 5px;
 }
-
 
 .animate-toggle span:first-child {
     transform: rotate(45deg) translate(6px, 4px);
