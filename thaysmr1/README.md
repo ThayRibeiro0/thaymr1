@@ -35,5 +35,8 @@ If you are developing a production application, we recommend updating the config
 
 ## Referencia
 
-43:15
-https://www.youtube.com/watch?v=wFh0SJVDM9E
+Complete React Portfolio Website Project Tutorial - Create Personal Portfolio Website with React JS - https://www.youtube.com/watch?v=wFh0SJVDM9E
+
+Portifolio3D GITHUB - https://github.com/ThayRibeiro0/portifolio3d
+
+MyPortifolio- https://github.com/ThayRibeiro0/MyPortifolio

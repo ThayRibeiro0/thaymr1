@@ -37,9 +37,9 @@ video {
     align-items: center;
     margin-left: 50%;
     color: black; */
-    margin: 20px 40px 30px 10px;
+    margin: 20px 50px 20px 10px;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     margin-top: 10%;
     /* padding: 50px 0px 8px 32px;
     line-height: 75px;
@@ -60,6 +60,8 @@ video {
 
 .home-container p{
     text-align: center;
+    font-size: 30px;
+    margin: 20px 50px 20px 10px;
 }
 
 .content-text {
@@ -94,7 +96,7 @@ video {
     }
     
     .home-container h1 {
-        font-size: 50px;
+        font-size: 60px;
         margin-top: 20%;
     }
 }
