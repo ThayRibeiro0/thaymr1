@@ -1,8 +1,12 @@
-
+import '../about/about.css'
+import Navbar from '../../components/Navbar';
 
 const About = () => {
   return (
-    <div>About</div>
+    <section className='container'>
+      <div className="leftHalf">About 1</div>
+      <div className="rightHalf">About 2</div>
+    </section>
     // <div> 
     //   <div>
     //     <p> Introduction </p>
