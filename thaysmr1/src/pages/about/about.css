@@ -18,32 +18,32 @@
  }
 
  .middleHalf {
-   width: 70vw;
-   display: flex;
-   position: absolute;
-   left: 50%;
-   top: 50%;
-   transform: translate(-50%, -50%);
-   border-left: 2px dashed;
-   border-top: 2px dashed;
-   border-right: 2px dashed;
-   border-bottom: 2px dashed;
-   border-radius: 50px;
-   padding: 80px;
-   padding-right: 500px;
-   z-index: 1;
+  padding: 10%;
+   content: '';
+   display: table;
+   clear: both;
+   border: 1px dashed;
+
+   
  }
 
+.subBoxText {
+  text-align: right;
+  float: left;
+  width: 50%;
+  flex: 50%;
+}
+
  .subBoxImg {
-   width: 50%;
-   position: relative;
-   display: flex;
+  float: right;
+  max-width: 100%;
+  height: auto;
  }
 
  .pic {
    position: absolute;
    bottom: 0;
-   top: 10%;
+   top: 25%;
    left: 50%;
    transform: translate(20%, 0%);
    width: 25vw;
@@ -53,5 +53,5 @@
  }
 
  .subBoxTotal{
-   padding: 20px;
+
  }

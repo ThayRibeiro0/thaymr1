@@ -5,7 +5,9 @@ const About = () => {
   return (
     <section className='container'>
       <div className="leftHalf">About 1</div>
+      
       <div className="rightHalf">About 2</div>
+      
       <div className='middleHalf'>
         <div className='subBoxTotal'>
           <div className='subBoxText'>
@@ -23,13 +25,12 @@ const About = () => {
               <a href = "https://github.com/ThayRibeiro0" target = "_blank">Github 💻</a>
             </h2>
           </div>
-        </div>
-        <div>
           <div className='subBoxImg'>
             <img className='pic' src={Me} alt="Profile Picture" />
-          </div>    
-        </div>
+          </div>
+        </div>    
       </div>
+      
     </section>
     // <div> 
     //   <div>
