@@ -1,15 +1,57 @@
 .leftHalf {
-    background: black;
-    width: 50%;
-    position: absolute;
-    left: 0px;
-    height: 100%;
+   background-image: url('../../assets/imgend.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   opacity: 0.2;
+   width: 50%;
+   position: absolute;
+   left: 0px;
+   height: 100%;
  }
  
  .rightHalf {
+   width: 50%;
+   position: absolute;
+   right: 0px;
+   height: 100%;
+ }
+
+ .middleHalf {
+   width: 70vw;
+   display: flex;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   border-left: 2px dashed;
+   border-top: 2px dashed;
+   border-right: 2px dashed;
+   border-bottom: 2px dashed;
+   border-radius: 50px;
+   padding: 80px;
+   padding-right: 500px;
+   z-index: 1;
+ }
+
+ .subBoxImg {
+   width: 50%;
+   position: relative;
+   display: flex;
+ }
+
+ .pic {
+   position: absolute;
+   bottom: 0;
+   top: 10%;
+   left: 50%;
+   transform: translate(20%, 0%);
+   width: 25vw;
+   border-radius: 200px;
+   height: auto;
  
-    width: 50%;
-    position: absolute;
-    right: 0px;
-    height: 100%;
+ }
+
+ .subBoxTotal{
+   padding: 20px;
  }
