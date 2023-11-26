@@ -1,57 +1,51 @@
-.leftHalf {
-   background-image: url('../../assets/imgend.png');
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center center;
-   opacity: 0.2;
-   width: 50%;
-   position: absolute;
-   left: 0px;
-   height: 100%;
- }
- 
- .rightHalf {
-   width: 50%;
-   position: absolute;
-   right: 0px;
-   height: 100%;
- }
+.container {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
 
  .middleHalf {
+  
   padding: 10%;
-   content: '';
-   display: table;
-   clear: both;
-   border: 1px dashed;
-
-   
+  content: '';
+  display: flex;
+  clear: both;
  }
 
 .subBoxText {
-  text-align: right;
-  float: left;
-  width: 50%;
-  flex: 50%;
+  margin-top: 5%;
+  text-align: left;
+  width: 80%; 
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+  border-top: 1px dashed;
+  border-radius: 1%;
+  font-weight: 500;
+  float: right;
 }
 
  .subBoxImg {
-  float: right;
   max-width: 100%;
   height: auto;
  }
 
  .pic {
-   position: absolute;
-   bottom: 0;
-   top: 25%;
-   left: 50%;
-   transform: translate(20%, 0%);
-   width: 25vw;
-   border-radius: 200px;
-   height: auto;
+  position: absolute;
+  margin-top: -10%;
+  transform: translate(-20%, 0%);
+  width: 20vw;
+  border-radius: 200px;
+  height: auto;
  
  }
 
  .subBoxTotal{
-
+    opacity: 1;
+    
  }
+
+
+ 

@@ -1,0 +1,35 @@
+.social-container {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    margin-top: -5%;
+}
+
+.icons {
+    display: table-cell;
+    width: 30%;
+    line-height: 57px;
+    color: inherit;
+}
+
+.social-container a{
+    display: fixed;
+    line-height: 1;
+    margin-right: 20px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+div .socialBox {
+    margin: 5%;
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 5%;
+    max-width: 100%;
+}
+
+div .socialBox:hover {
+
+}

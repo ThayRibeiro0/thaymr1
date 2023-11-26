@@ -26,8 +26,8 @@ video {
     justify-content: center; */
     display: inline-block;
     padding: 40px;
-    width: 100%;
-    height: 100vh;
+    max-width: 100%;
+    height: auto;
 }
 
 .home-container h1 {
@@ -37,10 +37,10 @@ video {
     align-items: center;
     margin-left: 50%;
     color: black; */
-    margin: 20px 50px 20px 10px;
+    margin: 20px;
     text-align: center;
     font-size: 60px;
-    margin-top: 10%;
+    margin-top: 0%;
     /* padding: 50px 0px 8px 32px;
     line-height: 75px;
     letter-spacing: -0.04em; */
@@ -73,14 +73,42 @@ video {
     margin-right: 5rem ; */
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
 
-@media (min-aspect-ratio: 900px) {
+div.hireme {
+    margin-top: 0%;
+
+}
+
+div.hireme:hover {
+    background: -webkit-linear-gradient(#dd3636, #7a7070);
+}
+
+
+@media (max-aspect-ratio: 900px) {
     .bg-video {
         width: 100%;
         height: auto;
     }
+    div.hireme {
+        text-decoration: none;
+        color: white;
+        background: black;
+        margin: 26px 0;
+        padding: 10px 18px;
+        border-radius: 10px;
+        display: inline-block;
+        font-weight: 500;
+        cursor: pointer;
+        margin-top: -15%;
+        margin-left: 8%;
+    }
 }
 
+/* 
 @media (max-aspect-ratio: 16/9) {
     .bg-video {
         width: auto;
@@ -97,10 +125,23 @@ video {
     
     .home-container h1 {
         font-size: 60px;
-        margin-top: 20%;
+        margin-top: 0;
+    }
+
+    div.hireme {
+        text-decoration: none;
+        color: white;
+        background: black;
+        margin: 26px 0;
+        padding: 10px 18px;
+        border-radius: 10px;
+        display: inline-block;
+        font-weight: 500;
+        cursor: pointer;
+        margin-left: 30%;
     }
 }
 
 
 
-
+ */

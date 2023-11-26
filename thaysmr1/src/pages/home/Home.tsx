@@ -16,10 +16,13 @@ const Home = () => {
       <div className='content-text'>
           <h1>Hi, I am <span className='myname'>&nbsp;Thays Moia Ribeiro</span></h1>
           <p>I have Graduation degree in Law ⚖, and Association degree in System Developement 💻and Administration 📊</p>
-        </div>
-        <div className='content-people' style={{padding: 0, alignItems: 'center', maxWidth: 1400, height: 200, marginTop: -10}}>
-          <ComputersCanvas />
-        </div>
+      </div>
+      <div className='content-people' style={{padding: 0, alignItems: 'center', maxWidth: 1400, height: 200, marginTop: -10, cursor: 'pointer'}}>
+        <ComputersCanvas />
+      </div>
+      <div className='hireme'>
+          <a  href='#'>Hire me</a>
+      </div>
     </section>
   );
 };

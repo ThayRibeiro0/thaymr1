@@ -8,18 +8,21 @@ import Home from './pages/home/Home'
 import About from './pages/about/About'
 import Portfolio from './pages/portifolio/Portfolio'
 import Contact from './pages/contact/Contact'
+import { SocialIcons } from './components/SocialIcons'
 
 function App() {
 
   return (
     <BrowserRouter>
+     <SocialIcons />
       <Navbar />
       <Routes>
         <Route index element={<Home />}/>
         <Route path='about' element={<About />}/>
         <Route path='portfolio' element={<Portfolio />}/>
         <Route path='contact' element={<Contact />}/>
-      </Routes>     
+      </Routes>
+          
     </BrowserRouter>
   )
 }
