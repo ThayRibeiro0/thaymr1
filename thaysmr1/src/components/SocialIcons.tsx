@@ -20,7 +20,7 @@ export const SocialIcons = () => {
             </a>
         </div>
         <div className='social-container' >
-            <a className="curriculum icons" href="/">
+            <a className="curriculum icons" href="https://aesthetic-trifle-d481e1.netlify.app/">
                 <BiSolidFilePdf size={35}/> myCurriculum
             </a>
         </div>
