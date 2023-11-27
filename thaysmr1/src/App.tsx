@@ -11,7 +11,6 @@ import Contact from './pages/contact/Contact'
 import { SocialIcons } from './components/SocialIcons'
 
 function App() {
-
   return (
     <BrowserRouter>
      <SocialIcons />

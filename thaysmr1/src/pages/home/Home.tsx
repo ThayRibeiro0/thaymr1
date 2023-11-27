@@ -21,7 +21,7 @@ const Home = () => {
         <ComputersCanvas />
       </div>
       <div className='hireme'>
-          <a  href='#'>Hire me</a>
+          <a  href='/contact'>Hire me</a>
       </div>
     </section>
   );

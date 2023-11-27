@@ -5,8 +5,6 @@
 
 .nav__menu {
     position: absolute;
-    margin-top: 0;
-    margin-bottom: 0;
     margin-left: 0.75rem;
     margin-right: 0.75rem;
     left: -105%;
@@ -17,14 +15,13 @@
     background: linear-gradient(to right, rgb(30, 11, 12), rgb(163, 158, 158));
     display: table-cell;
     border-radius: 0.5rem;
-    top: 5rem;
+    top: -1rem;
     z-index: 1;
     padding: 10px 16px;
     overflow: hidden;
     transition: all 0.9s cubic-bezier(0.77, 0.2, 0.05, 1);
     
 }
-
 
 .show-menu{
     left: 0;
@@ -58,7 +55,7 @@
 .nav__toggle {
     position: absolute;
     cursor: pointer;
-    top: 30px;
+    top: -70px;
     right: 30px;
     width: 40px;
     height: 40px;

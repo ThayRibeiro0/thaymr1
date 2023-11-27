@@ -1,21 +1,20 @@
-.container {
+
+.containerabout {
   max-width: 100%;
   height: auto;
-  display: inline-block;
+  padding: 10%;
+  content: ''; 
+  margin-top: -27%;
+  height: 130vh;
+  display: flex;
+  background: linear-gradient(#f38383, #decccc);
 }
 
- .middleHalf {
-  
-  padding: 10%;
-  content: '';
-  display: flex;
-  clear: both;
- }
-
 .subBoxText {
-  margin-top: 5%;
-  text-align: left;
-  width: 80%; 
+  margin-top: 25%;
+  text-align: right;
+  width: 100%; 
+  margin-left: 34%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -24,28 +23,21 @@
   border-top: 1px dashed;
   border-radius: 1%;
   font-weight: 500;
-  float: right;
+  padding: 6%;
+  z-index: 1;
 }
 
- .subBoxImg {
-  max-width: 100%;
-  height: auto;
- }
 
  .pic {
   position: absolute;
-  margin-top: -10%;
-  transform: translate(-20%, 0%);
-  width: 20vw;
-  border-radius: 200px;
+  margin-top: 15%;
+  transform: translate(-10%, 0%);
+  width: 35vw;
+  border-radius: 50%;
   height: auto;
- 
+  z-index: 1;
  }
 
- .subBoxTotal{
-    opacity: 1;
-    
- }
 
 
  

@@ -2,8 +2,6 @@ import { IoLogoLinkedin } from 'react-icons/io'
 import { FaGithubSquare } from "react-icons/fa"
 import { BiSolidFilePdf } from "react-icons/bi";
 
-import { NavLink } from 'react-router-dom'
-
 import './socialIcons.css'
 
 
